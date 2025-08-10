@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <header>
+    <h1>Medi.Well</h1>
+    <nav>
+      <ul>
+        <li><a href="#doctors">Doctors</a></li>
+        <li><a href="#issues">Health Problems</a></li>
+        <li><a href="#remedies">Home Remedies</a></li>
+        <li><a href="#reviews">Patient Reviews</a></li>
+        
+      </ul>
+    </nav>
+
+
+<section id="symptom-checker">
+  <textarea id="symptomInput" placeholder="Enter your symptoms..."></textarea>
+  <button onclick="checkSymptoms()">Get Solution</button>
+  
+  <h2>Describe Your Health Issue</h2>
+  <div id="solution"></div>
+</section>
+
+
+<section id="tips">
+  <h2>Healthy Living Tips</h2>
+  <div class="tips-grid">
+    <div class="tip">
+      <img src="ex.png" alt="Exercise" />
+      <h3>Exercise Regularly</h3>
+      <p>At least 30 minutes a day helps maintain heart and lung health.</p>
+    </div>
+    <div class="tip">
+      <img src="md.png" alt="Medication" />
+      <h3>Follow Prescribed Medication</h3>
+      <p>Take your medicine on time to manage chronic illnesses effectively.</p>
+    </div>
+    <div class="tip">
+      <img src="hy.png" alt="Hydration" />
+      <h3>Stay Hydrated</h3>
+      <p>Drink 6-8 glasses of water daily to help digestion and circulation.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="doctors">
+  <h2>Top 5 Trusted Doctors</h2>
+  <div class="doctor-list">
+    <div class="doctor-card">
+      <img src="fau.png" alt="Dr. Anthony Fauci" />
+      <h3>Dr. Anthony Fauci</h3>
+      <p>Immunologist and Infectious Disease Expert</p>
+    </div>
+
+    <div class="doctor-card">
+      <img src="atul.jpg" alt="Dr. Atul Gawande" />
+      <h3>Dr. Atul Gawande</h3>
+      <p>Surgeon, Writer and Public Health Researcher</p>
+    </div>
+
+    <div class="doctor-card">
+      <img src="paul.png" alt="Dr. Paul Farmer" />
+      <h3>Dr. Paul Farmer</h3>
+      <p>Global Health and Infectious Disease Specialist</p>
+    </div>
+
+    <div class="doctor-card">
+      <img src="san.png" alt="Dr. Sanjay Gupta" />
+      <h3>Dr. Sanjay Gupta</h3>
+      <p>Neurosurgeon and Medical Correspondent</p>
+    </div>
+
+    <div class="doctor-card">
+      <img src="dev.jpg" alt="Dr. Devi Shetty" />
+      <h3>Dr. Devi Shetty</h3>
+      <p>Cardiac Surgeon and Health Entrepreneur</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="hospital-links">
+  <h2>Hospital Online Pages & Appointment Links</h2>
+  <div class="hospital-list">
+
+
+    <h3>Hospitals in Bangladesh</h3>
+    <ul>
+      <li><a href="https://www.evercarebd.com/book-an-appointment" target="_blank">Evercare Hospital Dhaka – Book Appointment</a></li>
+      <li><a href="https://www.squarehospital.com/appointment" target="_blank">Square Hospital – Doctor Appointment</a></li>
+      <li><a href="https://www.squarehospital.com" target="_blank">Square Hospital</a></li>
+      <li><a href="https://www.apollodhaka.com" target="_blank">Evercare (Apollo) Hospital Dhaka</a></li>
+      <li><a href="https://www.labaidgroup.com" target="_blank">Labaid Specialized Hospital</a></li>
+    </ul>
+
+
+    <h3>International Hospitals</h3>
+    <ul>
+      <li><a href="https://www.mayoclinic.org" target="_blank">Mayo Clinic (USA)</a></li>
+      <li><a href="https://www.clevelandclinic.org" target="_blank">Cleveland Clinic (USA)</a></li>
+      <li><a href="https://www.mountsinai.org" target="_blank">Mount Sinai Hospital (USA)</a></li>
+      <li><a href="https://www.singhealth.com.sg" target="_blank">SingHealth (Singapore)</a></li>
+      <li><a href="https://www.fortishealthcare.com" target="_blank">Fortis Healthcare (India)</a></li>
+      <li><a href="https://www.apollohospitals.com" target="_blank">Apollo Hospitals (India)</a></li>
+      <li><a href="https://www.bumrungrad.com/en" target="_blank">Bumrungrad International Hospital (Thailand)</a></li>
+    </ul>
+
+  <h2>World’s Best Hospitals – Official Links</h2>
+  <ul>
+    
+  <li><a href="https://www.einstein.br/servicos/agendamento" target="_blank">Albert Einstein Hospital (Brazil) – Book Appointment</a></li>
+  <li><a href="https://www.usz.ch/en/contact/" target="_blank">University Hospital Zurich (Switzerland) – Contact</a></li>
+  <li><a href="https://www.uzleuven.be/en/appointments" target="_blank">UZ Leuven (Belgium) – Appointments</a></li>
+  <li><a href="https://www.clevelandclinicabudhabi.ae/en/patients-and-visitors/request-an-appointment/" target="_blank">Cleveland Clinic Abu Dhabi – Book</a></li>
+  <li><a href="https://www.karolinska.se/en/patient/" target="_blank">Karolinska Hospital (Sweden) – Patient Info</a></li>
+  <li><a href="https://www.mayoclinic.org/appointments" target="_blank">Mayo Clinic (USA) – Request Appointment</a></li>
+  <li><a href="https://my.clevelandclinic.org/online-services/appointments" target="_blank">Cleveland Clinic (USA)</a></li>
+  <li><a href="https://www.apollohospitals.com" target="_blank">Apollo Hospitals (India)</a></li>
+  <li><a href="https://www.bumrungrad.com/en/contact-us/request-appointment" target="_blank">Bumrungrad Hospital (Thailand)</a></li>
+  <li><a href="https://www.singhealth.com.sg/patient-care/appointment" target="_blank">SingHealth (Singapore)</a></li>
+  </ul>
+
+
+  </div>
+</section>
+
+
+
+     Remedy<section id="remedies">
+  <h2>Homeedies with Safety Tips</h2>
+
+  <div class="remedy-item" onclick="toggleRemedy(0)">Honey + Ginger</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Honey is a natural antibacterial agent that soothes the throat and helps suppress cough. Ginger has potent anti-inflammatory, antioxidant, and antiviral properties that help reduce throat irritation and boost immunity.<br>
+    <strong>How to Make:</strong> Peel and finely grate 1 teaspoon of fresh ginger. Mix it thoroughly with 1 tablespoon of raw honey. Optionally, add a few drops of freshly squeezed lemon juice for added vitamin C and enhanced flavor.<br>
+    <strong>Usage:</strong> Take 1-2 teaspoons of this mixture 2-3 times a day, especially when experiencing sore throat or cough symptoms. It can be taken directly or stirred into warm (not hot) water as a soothing tea.<br>
+    <strong>Tips:</strong> Use raw, organic honey for maximum benefits. Avoid giving honey to infants under 1 year due to risk of botulism.<br>
+    <em>Safety:</em> Do not use in children younger than 12 months. If allergic to honey or ginger, discontinue use immediately.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(1)">Turmeric Milk</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Turmeric contains curcumin, a powerful antioxidant and anti-inflammatory compound that supports the immune system, reduces joint pain, and improves digestion.<br>
+    <strong>How to Make:</strong> Warm 1 cup of milk (dairy or plant-based alternatives like almond or soy). Stir in 1/2 teaspoon turmeric powder and a pinch of freshly ground black pepper to enhance curcumin absorption. You may also add a small amount of honey or cinnamon for flavor.<br>
+    <strong>Usage:</strong> Drink this warm turmeric milk once daily, preferably before bedtime to promote relaxation and better sleep.<br>
+    <strong>Tips:</strong> Use fresh turmeric powder if possible. Black pepper is essential for maximizing benefits.<br>
+    <em>Safety:</em> Avoid if allergic to turmeric or if you have gallbladder problems. People who are lactose intolerant should use lactose-free milk alternatives.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(2)">Steam Inhalation</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Steam inhalation helps loosen mucus in the nasal passages, relieves sinus congestion, and eases breathing difficulties associated with colds, allergies, or respiratory infections.<br>
+    <strong>How to Make:</strong> Boil water and carefully pour it into a large heatproof bowl. Add 2-3 drops of eucalyptus or peppermint essential oil if available. Drape a towel over your head and the bowl to trap steam. Breathe deeply through your nose for 5-10 minutes.<br>
+    <strong>Usage:</strong> Use steam inhalation 1-2 times daily during congestion.<br>
+    <strong>Tips:</strong> Keep your eyes closed during the process to avoid irritation. Keep a safe distance to avoid burns.<br>
+    <em>Safety:</em> Do not use steam inhalation for young children or infants. Avoid direct contact with hot water or steam to prevent burns. People with asthma should use with caution.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(3)">Aloe Vera</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Aloe vera gel has cooling, soothing, anti-inflammatory, and healing properties that help with burns, cuts, skin irritation, and dry skin conditions.<br>
+    <strong>How to Make:</strong> Cut a fresh aloe vera leaf and scoop out the clear gel inside. Use immediately or store in a clean container refrigerated for up to a week.<br>
+    <strong>Usage:</strong> Apply a thin layer of gel directly onto affected skin areas 2-3 times daily.<br>
+    <strong>Tips:</strong> Always do a patch test on a small skin area to check for sensitivity or allergic reactions.<br>
+    <em>Safety:</em> Avoid ingestion unless under medical supervision. Stop use if irritation or rash develops.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(4)">Salt Water Gargle</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Gargling with salt water reduces throat inflammation, loosens mucus, and kills bacteria, helping relieve sore throat symptoms.<br>
+    <strong>How to Make:</strong> Dissolve 1/2 teaspoon of non-iodized salt in 1 cup of warm (not hot) water.<br>
+    <strong>Usage:</strong> Gargle for 30 seconds and spit out. Repeat 2-3 times a day.<br>
+    <strong>Tips:</strong> Use warm water to maximize salt solubility and comfort.<br>
+    <em>Safety:</em> Do not swallow the gargle solution. Avoid frequent use if you have high blood pressure due to salt content.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(5)">Garlic</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Garlic contains allicin, a compound with antibacterial, antiviral, and immune-boosting properties.<br>
+    <strong>How to Make:</strong> Crush or finely chop 1-2 cloves of raw garlic and allow it to sit for 10 minutes to activate allicin.<br>
+    <strong>Usage:</strong> Consume raw with meals or mix into warm water or honey to reduce pungency.<br>
+    <strong>Tips:</strong> Use fresh garlic daily for best effects.<br>
+    <em>Safety:</em> Avoid on an empty stomach if you have gastritis, ulcers, or acid reflux. Excessive intake may cause bad breath and stomach upset.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(6)">Peppermint Tea</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Peppermint tea relaxes muscles of the digestive tract, reduces bloating, and eases headaches due to its menthol content.<br>
+    <strong>How to Make:</strong> Steep 1 tablespoon of fresh or dried peppermint leaves in 1 cup boiling water for 5-10 minutes. Strain before drinking.<br>
+    <strong>Usage:</strong> Drink 1-2 cups daily, preferably after meals.<br>
+    <strong>Tips:</strong> Fresh peppermint leaves give a stronger flavor and higher benefits.<br>
+    <em>Safety:</em> Avoid if you suffer from acid reflux or GERD as peppermint may worsen symptoms.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(7)">Lemon Water</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Lemon water aids digestion, flushes out toxins, promotes hydration, and provides vitamin C.<br>
+    <strong>How to Make:</strong> Squeeze the juice of half a fresh lemon into a glass of warm or room temperature water.<br>
+    <strong>Usage:</strong> Drink first thing in the morning on an empty stomach.<br>
+    <strong>Tips:</strong> Use fresh lemons, not bottled lemon juice.<br>
+    <em>Safety:</em> Rinse your mouth after drinking to prevent acid erosion on teeth. Avoid if you have citrus allergies.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(8)">Chamomile Tea</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Chamomile promotes relaxation, reduces anxiety, helps with insomnia, and has mild anti-inflammatory effects.<br>
+    <strong>How to Make:</strong> Steep 1-2 teaspoons of dried chamomile flowers or a tea bag in boiling water for 5-10 minutes.<br>
+    <strong>Usage:</strong> Drink 1 cup before bedtime to help improve sleep quality.<br>
+    <strong>Tips:</strong> Avoid sweetening with sugar; use honey or drink plain.<br>
+    <em>Safety:</em> May cause allergic reactions in people allergic to ragweed, daisies, or chrysanthemums.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(9)">Yogurt</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Rich in probiotics that support gut microbiota, improve digestion, and boost immunity.<br>
+    <strong>How to Make:</strong> Eat plain, unsweetened yogurt, preferably with live active cultures.<br>
+    <strong>Usage:</strong> Consume 1 small bowl daily, can be mixed with fruits or nuts.<br>
+    <strong>Tips:</strong> Avoid flavored yogurts with added sugars or artificial ingredients.<br>
+    <em>Safety:</em> Avoid if allergic to dairy or lactose intolerant unless using lactose-free alternatives.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(10)">Ginger Tea</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Helps reduce nausea, stimulates digestion, and relieves inflammation.<br>
+    <strong>How to Make:</strong> Slice a 1-inch piece of fresh ginger. Boil it in 2 cups of water for 10 minutes. Strain and add honey or lemon if desired.<br>
+    <strong>Usage:</strong> Drink 1 cup 1-2 times daily.<br>
+    <strong>Tips:</strong> Fresh ginger provides more benefits than powdered form.<br>
+    <em>Safety:</em> Limit intake during pregnancy. May interact with blood-thinning medications.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(11)">Coconut Oil</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Contains fatty acids that moisturize skin, promote hair growth, and have mild antimicrobial properties.<br>
+    <strong>How to Make:</strong> Use virgin or extra-virgin coconut oil as is.<br>
+    <strong>Usage:</strong> Apply to skin as moisturizer or use as hair mask 2-3 times per week.<br>
+    <strong>Tips:</strong> Warm oil slightly before application for better absorption.<br>
+    <em>Safety:</em> Conduct patch test to avoid allergic reactions. Not recommended for oily or acne-prone skin.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(12)">Apple Cider Vinegar</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> May support blood sugar regulation, aid digestion, and promote weight management.<br>
+    <strong>How to Make:</strong> Dilute 1-2 teaspoons of raw, unfiltered apple cider vinegar in 1 glass (250 ml) of water.<br>
+    <strong>Usage:</strong> Drink once daily before meals.<br>
+    <strong>Tips:</strong> Always dilute before drinking. Use a straw to minimize contact with teeth.<br>
+    <em>Safety:</em> Excessive intake can erode tooth enamel and cause throat irritation.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(13)">Eucalyptus Oil</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Eucalyptus oil has decongestant, antiseptic, and anti-inflammatory properties.<br>
+    <strong>How to Use:</strong> Add a few drops to boiling water for steam inhalation or dilute with carrier oil for topical application.<br>
+    <strong>Usage:</strong> Use steam inhalation for congestion or apply diluted oil to chest.<br>
+    <strong>Tips:</strong> Never apply undiluted oil directly to skin.<br>
+    <em>Safety:</em> Keep away from eyes and sensitive areas. Avoid use in children under 2 years.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(14)">Basil Leaves</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Basil leaves contain antioxidants and have anti-inflammatory, antibacterial, and adaptogenic properties.<br>
+    <strong>How to Use:</strong> Chew fresh leaves or make a tea by boiling leaves in water.<br>
+    <strong>Usage:</strong> Consume fresh leaves daily or drink tea 1-2 times per day.<br>
+    <strong>Tips:</strong> Use organic basil to avoid pesticides.<br>
+    <em>Safety:</em> Consult a doctor before use if pregnant or taking blood thinners.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(15)">Cinnamon</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Cinnamon has anti-inflammatory, antioxidant, and blood sugar regulating effects.<br>
+    <strong>How to Use:</strong> Add 1/2 teaspoon cinnamon powder to warm milk or tea.<br>
+    <strong>Usage:</strong> Consume once daily.<br>
+    <strong>Tips:</strong> Use Ceylon cinnamon (true cinnamon) rather than cassia cinnamon to avoid high coumarin intake.<br>
+    <em>Safety:</em> Excessive intake may cause liver issues.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(16)">Warm Compress</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Warm compress helps relieve muscle pain, improve circulation, and reduce stiffness.<br>
+    <strong>How to Use:</strong> Soak a clean cloth in warm water, wring out excess, and apply to the affected area for 15-20 minutes.<br>
+    <strong>Usage:</strong> Repeat 3-4 times daily as needed.<br>
+    <strong>Tips:</strong> Ensure water is warm, not hot, to avoid burns.<br>
+    <em>Safety:</em> Avoid applying heat to open wounds or swollen areas.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(17)">Oatmeal Bath</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Oatmeal bath soothes dry, itchy, and irritated skin due to its anti-inflammatory and moisturizing properties.<br>
+    <strong>How to Use:</strong> Add 1 cup of finely ground oatmeal to warm bathwater. Soak for 15-20 minutes.<br>
+    <strong>Usage:</strong> Use 2-3 times per week.<br>
+    <strong>Tips:</strong> Use colloidal oatmeal for best results.<br>
+    <em>Safety:</em> Avoid if you have open wounds.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(18)">Vitamin C Rich Foods</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Vitamin C boosts immunity, aids wound healing, and acts as a powerful antioxidant.<br>
+    <strong>How to Use:</strong> Eat citrus fruits, strawberries, kiwi, bell peppers, and leafy greens regularly.<br>
+    <strong>Usage:</strong> Aim for 75-90 mg daily (varies by age and condition).<br>
+    <strong>Tips:</strong> Consume fresh fruits raw to preserve vitamin C.<br>
+    <em>Safety:</em> Excessive vitamin C intake can cause stomach upset.
+  </div>
+
+  <div class="remedy-item" onclick="toggleRemedy(19)">Hydration</div>
+  <div class="remedy-description">
+    <strong>Benefits:</strong> Proper hydration supports overall health, improves skin, aids digestion, and helps maintain bodily functions.<br>
+    <strong>How to Use:</strong> Drink at least 8 glasses (2 liters) of water daily.<br>
+    <strong>Usage:</strong> Spread water intake throughout the day.<br>
+    <strong>Tips:</strong> Increase intake during hot weather or physical activity.<br>
+    <em>Safety:</em> Avoid excessive water intake which can cause hyponatremia.
+  </div>
+
+</section>
+
+
+<section id="reviews">
+    <h2>Patient Reviews</h2>
+    <div class="review-list">
+      <div class="review">
+        <img src="pt1.png" alt="Patient 1" />
+        <p>“Excellent service! Doctor was so helpful.”</p>
+      </div>
+      <div class="review">
+        <img src="pt2.png" alt="Patient 2" />
+        <p>“Very satisfied with the treatment. Highly recommended.”</p>
+      </div>
+      <div class="review">
+        <img src="pt3.png" alt="Patient 3" />
+        <p>“The diagnosis was accurate and well explained.”</p>
+      </div>
+      <div class="review">
+        <img src="pt4.png" alt="Patient 4" />
+        <p>“Efficient appointment process and friendly staff.”</p>
+      </div>
+      <div class="review">
+        <img src="pt5.png" alt="Patient 5" />
+        <p>“I appreciated the follow-up and care shown after my visit.”</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="healthy-diet">
+  <h2>Healthy Diet Chart by Age Group</h2>
+  <div class="age-groups">
+    <button onclick="showDiet('age5to12')">Age 5-12</button>
+    <button onclick="showDiet('age12to17')">Age 12-17</button>
+    <button onclick="showDiet('age18to27')">Age 18-27</button>
+    <button onclick="showDiet('age27to40')">Age 27-40</button>
+    <button onclick="showDiet('age40to60')">Age 40-60</button>
+    <button onclick="showDiet('age60plus')">Age 60+</button>
+  </div>
+  <div id="diet-plan"></div>
+</section>
+
+
+
+<section id="login">
+  <h2>User Login</h2>
+  <form id="loginForm" action="login.php" method="POST">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required />
+
+    <button type="submit">Login</button>
+  </form>
+</section>
+<section id="why-choose-us">
+  <h2>Why Choose Medi.Well?</h2>
+  <ul>
+    <li>Experienced and trusted top doctors specialized in various health fields.</li>
+    <li>Easy appointment booking with verified appointment numbers.</li>
+    <li>Comprehensive health problem descriptions and proven solutions.</li>
+    <li>Safe and effective home remedies with important safety tips.</li>
+    <li>Personalized healthy diet plans tailored for all age groups.</li>
+    <li>Real patient reviews to build your trust and confidence.</li>
+    <li>User-friendly, fully responsive, and authorized for secure health support.</li>
+  </ul>
+</section>
+
+
+
+<script src="script.js"></script>
+
+<footer>
+    <p>&copy; 2025 HealthCare Hub. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+
+</body>
+</html>
